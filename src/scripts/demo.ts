@@ -7,7 +7,7 @@ export class Demo implements IDemo {
   }
 
   showLogos(elementIndex:number): void {
-    this.demoElement.setAttribute('src', `./dist/assets/logo${elementIndex}.svg`)
+    this.demoElement.setAttribute('src', `./assets/logo${elementIndex}.svg`)
   }
 
   changeBackground(): void {
