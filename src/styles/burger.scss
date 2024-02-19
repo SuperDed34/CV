@@ -1,0 +1,49 @@
+.burger{
+  visibility: collapse;
+  display: none;
+  width: 0;
+  cursor: pointer;
+    @media screen and (max-width: $tablet) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    margin-top: 1em;
+    height: 3em;
+    width: 3em;
+    &::after, &::before {
+    content: '';
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    height: 2px;
+    background-color: $color-borders;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    }
+    &::after {
+    top: 3em;
+    }
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.opened {
+  color: transparent;
+  &::after, &::before {
+    content: '';
+    position: absolute;
+    top: 1.5em;
+    left: 0em;
+    background-color: $color-borders;
+    width: 100%;
+  }
+  &::after {
+    transform: rotate(45deg);
+    
+  }
+   &::before {
+     transform: rotate(-45deg);
+   }
+}

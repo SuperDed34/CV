@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: $desktop;
+  margin: 0 auto;
+  width: 100vw;
+  height: 60em;
+  background-image: url(../assets/images/coastal.svg);
+  background-attachment: fixed; /* Это важно для эффекта параллакса */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    margin: 0;
+    font-size: 10em;
+    font-weight: 400;
+  }
+  .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../assets/images/Vector.svg);
+    height: 15em;
+  }
+}
+
+@keyframes tiltBG {
+
+  from {
+    background-position: center;
+  }
+
+  to {
+    background-position: top;
+  }
+  
+}
