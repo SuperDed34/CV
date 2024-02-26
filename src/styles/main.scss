@@ -3,10 +3,10 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  max-width: $desktop;
-  margin: 0 auto;
-  width: 100vw;
-  height: 60em;
+  //max-width: $desktop;
+  //margin: 0 auto;
+  width: 98.9vw;
+  height: 100vh;
   background-image: url(../assets/images/coastal.svg);
   background-attachment: fixed; /* Это важно для эффекта параллакса */
   background-position: center;
@@ -16,16 +16,18 @@
   align-items: center;
   justify-content: center;
   h1{
-    margin: 0;
+    margin:2em 0;
+    align-self: flex-start;
     font-size: 10em;
     font-weight: 400;
   }
   .wave{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 99.9%;
     background-image: url(../assets/images/Vector.svg);
-    height: 15em;
+    background-size: cover;
+    height: 35em;
   }
 }
 

@@ -2,6 +2,8 @@
 @import './header.scss';
 @import './burger.scss';
 @import './main.scss';
+@import './events.scss';
+@import './aboutUs.scss';
 @import 'https://fonts.googleapis.com/css2?family=Bellefair&display=swap';
 
 html {
@@ -9,6 +11,7 @@ html {
   font-family: "Bellefair", serif;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
   @media screen and (max-width: $desktop) {
     font-size: 0.8rem;
   }
@@ -20,7 +23,8 @@ html {
 
 body {
   background-color: $color-background;
-  
+  margin: 0;
+  overflow-x: hidden;
 }
 
 a {
