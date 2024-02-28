@@ -11,3 +11,65 @@
   }
 }
 
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .about-us-heading{
+    align-items: flex-start;
+    h3{
+      font-size: 4em;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .about-us-top{
+    text-align: center;
+    font-size: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     h2{
+      font-weight: 500;
+      font-size: 1.2em;
+     }
+     .top-text{
+      font-size: 0.7em;
+      width: 80%;
+      border: 1px solid black;
+      border-radius: 2em;
+      padding: 0.5em 1em;
+      margin: 1em;
+     }
+      .our-repertoire{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      gap: 3em;
+      margin: 1em;
+     }
+
+     .talented-musician{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      gap: 3em;
+      margin: 1em;
+     }
+  }
+
+}
+
+      .text{
+        font-size: 0.6em;
+        width: 40%;
+        text-align: start;
+      }
+      .img{
+        width: 30%;
+        height: 30%;
+      }   
