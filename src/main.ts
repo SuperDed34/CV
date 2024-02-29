@@ -1,7 +1,7 @@
 import './styles/styles.scss'
 import { Burger } from './scripts/burger';
 // import { Demo } from './scripts/demo';
-import { getApi } from './scripts/api';
+//import { getApi } from './scripts/api';
 
 const burgerButton = document.querySelector('.burger') as HTMLElement
 const modalWindow = document.querySelector('.modal') as HTMLElement
@@ -27,5 +27,5 @@ burgerButton.addEventListener('click', () => {
 // })
 
 
-const data = getApi();
+//const data = getApi();
 
