@@ -1,0 +1,25 @@
+.other{
+  margin: 3em auto;
+  width: 84%;
+  .other-participant{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 1em;
+    -webkit-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 16px 2px rgba(0,0,0,0.75);
+    padding: 1em;
+    .other-card{
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      border: 1px solid black;
+      border-radius: 1em;
+      padding: 1em;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
