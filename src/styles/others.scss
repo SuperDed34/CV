@@ -16,15 +16,21 @@
     .other-card{
       display: flex;
       flex-direction: column;
-      width: 15%;
+      width: 10rem;
       border: 1px solid black;
       border-radius: 1em;
       padding: 1em;
       font-size: 1.5em;
       img{
         width: 100%;
-        height: 70%;
+        height: 60%;
         border-radius: 1em;
+      }
+      p {
+        margin: 0;
+      }
+      h3{
+        margin: 0em;
       }
     }
   }
