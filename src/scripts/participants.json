@@ -1,0 +1,45 @@
+
+  {
+    "performers" : [
+    {
+      "imgPath" : "./yuri.jpg",
+      "name": "Yuri Savkin",
+      "role": "Violin"
+    },
+    {
+      "imgPath" : "./ChristopherWilliamsPiano_cr.jpg",
+      "name": "Cristopher Williams",
+      "role": "Piano" 
+    },
+    {
+      "imgPath" : "./ben.jpg",
+      "name": "Ben Creighton Griffiths",
+      "role": "Harp" 
+    },
+    {
+      "imgPath" : "./sam.jpg",
+      "name": "Sam Baxter",
+      "role": "Oboe" 
+    },
+    {
+      "imgPath" : "./sion.jpg",
+      "name": "Sion Dawson",
+      "role": "Cello" 
+    },
+    {
+      "imgPath" : "./clarke1.jpg",
+      "name": "Clarke Alonzi",
+      "role": "Violin" 
+    },
+    {
+      "imgPath" : "./samantha.jpg",
+      "name": "Samantha Dawson",
+      "role": "Cello"       
+    },    
+    {
+      "imgPath" : "./Yongen_Day_002.jpg",
+      "name": "Yongen Day",
+      "role": "Violin" 
+    }
+    ]
+  }
