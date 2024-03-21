@@ -6,10 +6,11 @@ import { ParticipantsBuilder } from './scripts/participants';
 
 const burgerButton = document.querySelector('.burger') as HTMLElement
 const modalWindow = document.querySelector('.modal') as HTMLElement
+const menu = document.querySelectorAll('.navigation-items') as NodeListOf<HTMLElement>
 // const logo = document.querySelector('.logo') as HTMLElement
  new ParticipantsBuilder();
 
-const burger = new Burger(modalWindow, burgerButton)
+const burger = new Burger(modalWindow, burgerButton, menu)
 // const demoLogo = new Demo(logo);
 
 burgerButton.addEventListener('click', () => {
