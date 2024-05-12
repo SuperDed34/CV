@@ -1,0 +1,110 @@
+{
+  "about-me": "Hello, my name is Maks",
+  "about-me-p": "A highly experienced project manager, junior web developer and software engineer. I have over two years’ cab experience with exemplary passenger pick-up and drop-off records, demonstrating high customer service skills, thereby creating a positive customer experience. After this, I went on to become an innovative and highly dependable manager. I have over 9 years of experience in Customer Experience and contact center management, proving not only extensive knowledge in this field but also flexibility, adaptability, and the capability to work in different positions within the working environment. I am ambitious, a good team leader and player, with superb interpersonal and transferable skills. I am always eager to add to my skills and look forward to sharing my knowledge in an exciting new opportunity. Technologies are my passion. I don't need rest while I'm working with them. Now I continue to study machine learning and artificial intelligence with great interest.",
+  "skills": "Skills",
+  "skillsColumnLeft": [
+    "Excellent MS Office skills: Word, Excel & PowerPoint",
+    "Experience with COPC, OPEX standards",
+    "Knowledge in motivation systems development",
+    "Drawing up diagrams in Visio",
+    "High customer service etiquette",
+    "Knowledge of HTML, CSS, GIT, Azure",
+    "Programming: JavaScript, Java, Python, SQL",
+    "Bundlers: Vite, Webpack",
+    "Excellent digital skills"
+  ],
+  "skillsColumnRight": [
+    "Exceptional team management",
+    "Fluent in Russian — good communication skills",
+    "Business Problem-Solving skills",
+    "Analytical of technical and financial tasks",
+    "Quick UK Driving Licence acquisition",
+    "Building computer systems",
+    "Fluent with Unit Testing",
+    "Certified Agile PM Practitioner"
+  ],
+
+  "employment":[
+    {
+      "place":"LLC New Contact",
+      "position": "Lead Project manager / Project Manager",
+      "period": "01.2020 - 04.2023",
+      "description": "Promoted to Project Manager in 2020 and then a further promotion to Lead Project Manager by 2022. I was responsible for the management of projects, maintaining customer communication, overseeing contracts, invoicing and authorising payments. I headed the development, planning and running of the project and played a main role in training and development of staff.",
+      "responsabilites": [
+          "Responsible for the financial efficiency of projects.",
+          "Fast and proactive responses to problems.",
+          "Analysis and generating action plans.",
+          "Development and implementation of motivational activities.",
+          "Preparing and writing up reports.",
+          "Working with more than 1000 subordinate employees and evaluating the work of employees.",
+          "Controlling all business processes within the project.",
+          "Implementing training materials for employee progression.",
+          "Developing and approving technical tasks and budget for project’s IT team."
+] 
+    },
+    {
+      "place":"LLC New Contact",
+      "position": "Head of Works / Group Leader",
+      "period": "03.2015 - 01.2020",
+      "description": "After two years as a Group Leader, I was promoted to Head of Works. I was responsible for managing a team of supervisors and staff. Overseeing the operational activities of the business and ensuring that the workforce was productive. I worked with other senior staff, ensuring that staff were fully aware of operational practices and could implement new technologies. In both posts I commanded many different areas in the business, which gave me a wide range of duties.",
+      "responsabilites": [
+          "Drawing up strategic objectives.",
+          "Planning and analysis of activities.",
+          "Constant monitoring of personnel.",
+          "Finding new work improvement tactics.",
+          "Communicating with upper management.",
+          "Organizing training for operators and supervisors.",
+          "Managing budgets.",
+          "Recruiting, interviewing, and hiring staff.",
+          "Providing IT support."
+      ]
+    },
+    {
+      "place":"LLC Open Communications",
+      "position": "Supervisor / Customer Service Advisor",
+      "period": "02.2015 - 12.2015",
+      "description": "In both roles I needed to have the ability to negotiate and have good technical knowledge of products. I had to learn to be stress resistant, learn fast, and deal with a large amount of information.",
+      "responsabilites": [  
+          "Responding to customer complaints.",
+          "Updating the company database.",
+          "Providing information about new and existing products and services.",
+          "Tracking and processing new orders and refunds.",
+          "Making sales and processing payments.",
+          "Managing teams of operators.",
+          "Recruiting and training new employees.",
+          "Generating KPI plans.",
+          "Interacting with other divisions and branches.",
+          "Solving problems for employees."
+        ]
+    },
+     {
+      "place":"Self-employed taxi driver/lorry driver",
+      "position": "Self-employed",
+      "period": "01.2013 - 01.2015",
+      "description": "I helped passengers load and unload their baggage; assisted with luggage, groceries, wheelchairs, and walkers. Coordinated with dispatchers, customer service representatives, office personnel and customers. Steadily increased revenue through strong focus on customer service. Maintained the cab in clean and sanitary conditions; scheduled minor repairs and service. Completed daily paperwork and trip logs.",
+      "responsabilites": [  
+          "Responding to customer complaints.",
+          "Updating the company database.",
+          "Providing information about new and existing products and services.",
+          "Tracking and processing new orders and refunds.",
+          "Making sales and processing payments.",
+          "Managing teams of operators.",
+          "Recruiting and training new employees.",
+          "Generating KPI plans.",
+          "Interacting with other divisions and branches.",
+          "Solving problems for employees."
+        ]
+    }
+  ],
+  "trainings":[
+      { "training": "Coding Academy", "company": "CAVC", "period": "Feb 2024 - Present" },
+      { "training": "JS/FE 1st stage", "company": "RSSchool 2023Q4 (JavaScript/React)", "period": "Dec 2023 – May 2024" },
+      { "training": "WSOL Accredited Course", "company": "Cardiff and Vale College", "period": "Nov 2023 - Present" },
+      { "training": "ESOL Accredited Course","company": "Cardiff and Vale College", "period": "Sep 2023 - Present" },
+      { "training": "ESOL and Employability (Virtual)", "company": "Standguide", "period": "Aug 2023" },
+      { "training": "JS/FE Pre-School", "company": "RSSchool 2022Q4 (JavaScript)", "period": "Mar 2023" },
+      { "training": "Project Management", "company": "Neovox", "period": "2020" },
+      { "training": "Problem solving", "company": "Apex berg", "period": "2017" },
+      { "training": "Group Leadership and supervising", "company": "Open communications","period": "2016" }
+  ]
+}

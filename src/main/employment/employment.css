@@ -1,0 +1,57 @@
+#Employment{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.employment-place{
+  width: 100%;
+  padding: 1em;
+  margin:  0.5em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 1em;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0.3em 0.3em 1em 0em rgba(0,0,0,0.5);
+  cursor: pointer;
+  .place, .position, .period{
+    margin: 0;
+    width: 33%;
+  }
+
+  .period{
+    text-align: end;
+  }
+
+}
+
+.employment-place:hover{
+  background-color: rgb(1, 255, 85);
+  transform: scale(0.995);
+  box-shadow: 0em 0em 0em 0em rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width:768px) {
+  .employment-place{
+    flex-direction: column;
+    .position, .period{
+      margin:0;
+      width: fit-content;
+    }
+  }
+}
+.emp-wrapper{
+  margin: 0;
+  height: fit-content;
+  transition: height 0.3s ease-in-out;
+}
+.employment-full-descr{
+  overflow: hidden;
+  height: 0;
+}
+
+.employment-full-descr.opened{
+  height: fit-content;
+}
+

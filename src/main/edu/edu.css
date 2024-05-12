@@ -1,0 +1,48 @@
+.education{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  .edu-table-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .headers{
+        width: 33%;
+        font-weight: 700;
+    }
+    .headers, .edu-row{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0 0 1vh 0;
+      justify-content: space-around;
+
+    }
+    .edu-row{
+      border-bottom: 1px solid black;
+      margin-bottom: 2vh;
+    }
+  }
+}
+
+.edu-col{
+  width: 33%;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .company, .edu-col:nth-child(2){
+    display: none;
+  }
+
+  .company, .edu-col{
+    width: 48%;
+    word-wrap: break-word;
+  }
+
+  .edu-col:nth-child(2){
+    text-align: end;
+  }
+}

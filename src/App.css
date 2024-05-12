@@ -1,0 +1,15 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(211, 255, 251);
+  border-radius: 1em;
+  padding: 0 2em;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+}

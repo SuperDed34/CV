@@ -1,0 +1,19 @@
+.modal{
+  visibility: hidden;
+  width: 0;
+  position: absolute;
+  top: 20%;
+  height: fit-content;
+  font-size: 22px;
+  max-width: 80vw;
+  margin: 0 auto;
+  background-color: aliceblue;
+  z-index: 99;
+  border-radius:1em;
+  transition: 0.5s ease-in-out;
+}
+
+.modal.active{
+  visibility: visible;
+  width: fit-content;
+}
